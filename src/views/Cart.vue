@@ -1,11 +1,23 @@
 
 <template>
   <div>
-   
+    <header>
+      <Nav2></Nav2>
+
+    </header>
+
+    <main>
+      hello cart 
+    </main>
+    <footer>
+
+    </footer>
   </div>
 </template>
 
 <script>
+import Nav2 from '@/components/Nav2.vue';
+
 export default {
   name: 'Cart',
   created() {
@@ -14,6 +26,10 @@ export default {
   data() {
     return {
     }
+  },
+
+  components:{
+    Nav2
   },
   props: {
    

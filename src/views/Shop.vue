@@ -7,7 +7,7 @@
     </header>
 
     <main>
-      hello about 
+      hello shop 
     </main>
     <footer>
 
@@ -16,11 +16,11 @@
 </template>
 
 <script>
+
 import Nav2 from '@/components/Nav2.vue';
 
-
 export default {
-  name: 'About',
+  name: 'Blog',
   created() {
 
   },
@@ -41,7 +41,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>
 

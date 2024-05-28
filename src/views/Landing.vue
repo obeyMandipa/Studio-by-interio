@@ -2,8 +2,10 @@
 <template>
   <header>
     <div>
-   <div class="flex justify-between shadow-xl h-[50px]">
-    <div class="">Log</div>
+   <div class="flex justify-between shadow-xl h-[70px]  items-center p-2">
+    <div class="flex-1">
+      <a class="btn btn-ghost text-xl">Studio by interio</a>
+    </div>
     <ul class="flex justify-between w-[150px] " >
       <li><a href="">Blog</a></li>
       <li><a href="">About Us</a></li>
@@ -16,18 +18,14 @@
     <section class=" border-b border-gray-300 h-[100vh]">
       <div class=" flex justify-around " >
         <div class="h-[600px] w-[550px]  mt-[200px] space-y-6">
-          <h1 class="text-[70px] font-bold">Studio morden interio design</h1>
+          <p class="text-[70px] font-bold">Studio morden interio design</p>
           <p class="text-[20px]">Overarching five-year effort to cut costs, so far with uneven success. Akers's place in history
               rides on making his ambitious program work. The old centralist mentality still exerts a
               powerful pull, as anybody who spends </p>
           <div class="">
-            <div class="dropdown dropdown-top absolute">
+            <router-link to="/shop">
               <button class="h-[50px] w-[150px] hover:bg-black hover:text-white border border-gray-400 font-bold rounded-full">Explore</button>
-              <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded w-[500px] ml-[200px]">
-                <li><a>Item 1</a></li>
-                <li><a>Item 2</a></li>
-              </ul>
-            </div>
+            </router-link>
           </div>
         </div>
         <div class="flex w-[800px  mt-[60px] space-x-4 ">
@@ -35,13 +33,14 @@
           <img class=" rounded-[200px] h-[700px] -rotate-[30deg]" src="@/assets/images/landing2.jpeg" alt="">
           <img class=" rounded-[200px] h-[400px] -rotate-[30deg]" src="@/assets/images/landing3.jpeg" alt="">
 
+
         </div>
       </div>
     </section>
     <section class="p-[60px] h-[100vh]">
       <div class="flex justify-between mt-[200px]">
         <div class="h-[550px] w-[400px]  border-black rounded-[50px] p-[40px] space-y-4">
-          <h class="text-[30px] ">Emmaculatly Crafted with excellence to give you your desired comfort</h>
+          <p class="text-[30px] ">Emmaculatly Crafted with excellence to give you your desired comfort</p>
           <p class="">
             Overarching five-year effort to cut costs, so far with uneven success. Akers's place in history
               rides on making his ambitious program work. The old centralist mentality still exerts a
@@ -103,6 +102,8 @@
 </template>
 
 <script>
+
+
 export default {
   name: 'Landing ',
   created() {
@@ -112,6 +113,8 @@ export default {
     return {
     }
   },
+
+
   props: {
    
   },
@@ -122,9 +125,6 @@ export default {
 </script>
 
 <style scoped>
-
-
-
 
 </style>
 
