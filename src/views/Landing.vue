@@ -24,7 +24,7 @@
               powerful pull, as anybody who spends </p>
           <div class="">
             <router-link to="/shop">
-              <button class="h-[50px] w-[150px] hover:bg-black hover:text-white border border-gray-400 font-bold rounded-full">Explore</button>
+              <button class="btn h-[50px] w-[150px] hover:bg-black hover:text-white border border-gray-400 font-bold rounded-full">Explore</button>
             </router-link>
           </div>
         </div>
@@ -49,8 +49,8 @@
           <button class="h-[50px] w-[150px] hover:bg-black hover:text-white border border-gray-400 font-bold rounded-full">Explore</button>
 
         </div>
-        <div class="h-[550px] w-[400px] hover:bg-[#d5d8db]  rounded-[50px] space-y-4"> 
-          <img class="h-[400px] w-[400px]  rounded-t-[50px] " src="@/assets/images/chair.jpeg" alt="">
+        <div class="h-[550px] w-[400px] bg-[#d5d8db]  rounded-[50px] space-y-4"> 
+          <img class="h-[400px] w-[400px]  rounded-t-[50px] " src="@/assets/images/chairs/chair.jpeg" alt="">
 
           <div class="flex flex-col items-center space-y-2">
             <p class=" text-[20px]">Randel chair</p>
@@ -58,7 +58,7 @@
           </div>
 
         </div>
-        <div class="h-[550px] w-[400px] hover:bg-[#d5d8db]  rounded-[50px] space-y-4">
+        <div class="h-[550px] w-[400px] bg-[#d5d8db]  rounded-[50px] space-y-4">
           <img class="h-[400px] w-[400px] rounded-t-[50px] " src="@/assets/images/Comfy home aesthetic.jpeg" alt="">
 
           <div class="flex flex-col items-center space-y-2">
@@ -67,7 +67,7 @@
           </div>
 
         </div>
-        <div class="h-[550px] w-[400px] hover:bg-[#d5d8db]  rounded-[50px] space-y-4">
+        <div class="h-[550px] w-[400px] bg-[#d5d8db]  rounded-[50px] space-y-4">
           <img class="h-[400px] w-[400px] rounded-t-[50px] " src="@/assets/images/sitting.jpeg" alt="">
 
           <div class="flex flex-col items-center space-y-2">

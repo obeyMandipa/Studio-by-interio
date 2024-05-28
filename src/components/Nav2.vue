@@ -8,9 +8,9 @@
     </div>
   <div class="flex justify-between w-[500px] ">
 
-    <router-link to="/shop"> Shop</router-link>
-    <router-link to="/blog"> Blog</router-link>
-    <router-link to="/about"> About us</router-link>
+    <router-link to="/shop" class="hover:border-b-4 hover:border-gray-500 w-12 text-center"> Shop</router-link>
+    <router-link to="/blog" class="hover:border-b-4 hover:border-gray-500 w-12 text-center"> Blog</router-link>
+    <router-link to="/about" class="hover:border-b-4 hover:border-gray-500 w-18 text-center"> About us</router-link>
     <!-- cart link -->
     <div class="dropdown dropdown-end">
       <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
