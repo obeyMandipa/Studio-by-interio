@@ -40,7 +40,7 @@
     <section class="p-[60px] h-[100vh]">
       <div class="flex justify-between mt-[200px]">
         <div class="h-[550px] w-[400px]  border-black rounded-[50px] p-[40px] space-y-4">
-          <p class="text-[30px] ">Emmaculatly Crafted with excellence to give you your desired comfort</p>
+          <p class="text-[30px] font-bold ">Emmaculatly Crafted with excellence to give you your desired comfort</p>
           <p class="">
             Overarching five-year effort to cut costs, so far with uneven success. Akers's place in history
               rides on making his ambitious program work. The old centralist mentality still exerts a

@@ -10,7 +10,7 @@
       <div class="space-y-6 mt-[50px]">
         <div class="flex justify-center w-full py-2 gap-2  ">
           <a href="#item1" class="btn w-[200px] rounded-full border border-gray-500">Chair</a> 
-          <a href="#item2" class="btn w-[200px] rounded-full border border-gray-500">Couche</a> 
+          <a href="#item2" class="btn w-[200px] rounded-full border border-gray-500">Couch</a> 
           <a href="#item3" class="btn w-[200px] rounded-full border border-gray-500">Kitchen</a> 
           <a href="#item4" class="btn w-[200px] rounded-full border border-gray-500">Lounge</a> 
           <a href="#item5" class="btn w-[200px] rounded-full border border-gray-500">Aesthatic items</a> 
@@ -99,14 +99,50 @@
           <div id="item4" class="carousel-item w-full flex flex-col p-4">
             <p class="text-[25px] ml-8 font-light">Lounge</p>
 
-            <div class="h-[400px] w-[300px] bg-[#d5d8db]  rounded-[30px] space-y-4">
-              <img class="h-[300px] w-[300px] rounded-t-[30px] " src="@/assets/images/sitting.jpeg" alt="">
+            <div class="flex space-x-20 ml-[45px]">
+              <div class="h-[400px] w-[300px] bg-[#d5d8db]  rounded-[30px] space-y-4">
+                <img class="h-[300px] w-[300px] rounded-t-[30px] " src="@/assets/images/lounge/sitting.jpeg" alt="">
 
-              <div class="flex flex-col pl-4   space-y-1">
-                <p class=" text-[20px]">Aestatic sitting area</p>
-                <p class="text-[20px]">$106</p>
+                <div class="flex flex-col pl-4   space-y-1">
+                  <p class=" text-[20px]">Aestatic sitting area</p>
+                  <p class="text-[20px]">$106</p>
+                </div>
+              </div> 
+
+              <div class="h-[400px] w-[300px] bg-[#d5d8db]  rounded-[30px] space-y-4">
+                <img class="h-[300px] w-[300px] rounded-t-[30px] " src="@/assets/images/lounge/Entryway Luxury Round Wooden Japanese Coffee Table - Large.jpeg" alt="">
+
+                <div class="flex flex-col pl-4   space-y-1">
+                  <p class=" text-[20px]">Aestatic sitting area</p>
+                  <p class="text-[20px]">$106</p>
+                </div>
               </div>
-            </div> 
+              <div class="h-[400px] w-[300px] bg-[#d5d8db]  rounded-[30px] space-y-4">
+                <img class="h-[300px] w-[300px] rounded-t-[30px] " src="@/assets/images/lounge/d67854aa-1ded-4e23-b0ff-1f4135dc472a.jpeg" alt="">
+
+                <div class="flex flex-col pl-4   space-y-1">
+                  <p class=" text-[20px]">Aestatic sitting area</p>
+                  <p class="text-[20px]">$106</p>
+                </div>
+              </div>
+              <div class="h-[400px] w-[300px] bg-[#d5d8db]  rounded-[30px] space-y-4">
+                <img class="h-[300px] w-[300px] rounded-t-[30px] " src="@/assets/images/lounge/c2f70c7d-9180-47be-b325-b9542bfa8182.jpeg" alt="">
+
+                <div class="flex flex-col pl-4   space-y-1">
+                  <p class=" text-[20px]">Aestatic sitting area</p>
+                  <p class="text-[20px]">$106</p>
+                </div>
+              </div>
+              <div class="h-[400px] w-[300px] bg-[#d5d8db]  rounded-[30px] space-y-4">
+                <img class="h-[300px] w-[300px] rounded-t-[30px] " src="@/assets/images/lounge/Terrace design.jpeg" alt="">
+
+                <div class="flex flex-col pl-4   space-y-1">
+                  <p class=" text-[20px]">Aestatic sitting area</p>
+                  <p class="text-[20px]">$106</p>
+                </div>
+              </div>
+            </div>
+            
           </div>
 
           <div id="item5" class="carousel-item w-full flex flex-col p-4">
