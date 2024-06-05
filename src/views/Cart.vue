@@ -18,13 +18,16 @@
                 <p class="text-[18px]">Name</p>
                 <p class="font-light" >Reference Number</p>
               </div>
-              <div class="w-[200px] h-[50px] border rounded-full">
+              <div class="flex space-x-4 w-[200px] justify-center h-[50px] border rounded-full p-2">
+                <button class=" h-[27px] w-[27px] text-[24px] font-bold" @click="reduceUnit">-</button>
+                <input v-model="unit" type="text" class=" h-[27px] w-[35px] p-2 text-center" placeholder="1" readonly>
+                <button class=" h-[27px] w-[27px] text-[22px] font-bold" @click="addUnit">+</button>
               </div>
               <p class="text-[18px]">$Amount</p>
               <button class="w-[150px] h-[50px] border rounded-full tex">
                 Buy
               </button>
-              <button class="btn w-[70px] h-[150px] bg-red-300 rounded-lg">X</button>
+              <button class="btn w-[70px] h-[150px] rounded-lg">X</button>
             </div>
 
             <!-- cart item -->
@@ -34,13 +37,16 @@
                 <p class="text-[18px]">Name</p>
                 <p class="font-light" >Reference Number</p>
               </div>
-              <div class="w-[200px] h-[50px] border rounded-full">
+              <div class="flex space-x-4 w-[200px] justify-center h-[50px] border rounded-full p-2">
+                <button class=" h-[27px] w-[27px] text-[24px] font-bold" @click="reduceUnit">-</button>
+                <input v-model="unit" type="text" class=" h-[27px] w-[35px] p-2 text-center" placeholder="1" readonly>
+                <button class=" h-[27px] w-[27px] text-[22px] font-bold" @click="addUnit">+</button>
               </div>
               <p class="text-[18px]">$Amount</p>
               <button class="w-[150px] h-[50px] border rounded-full tex">
                 Buy
               </button>
-              <button class="btn w-[70px] h-[150px] bg-red-300 rounded-lg">X</button>
+              <button class="btn w-[70px] h-[150px]  rounded-lg">X</button>
             </div>
 
             <!-- cart item -->
@@ -50,13 +56,16 @@
                 <p class="text-[18px]">Name</p>
                 <p class="font-light" >Reference Number</p>
               </div>
-              <div class="w-[200px] h-[50px] border rounded-full">
+              <div class="flex space-x-4 w-[200px] justify-center h-[50px] border rounded-full p-2">
+                <button class=" h-[27px] w-[27px] text-[24px] font-bold" @click="reduceUnit">-</button>
+                <input v-model="unit" type="text" class=" h-[27px] w-[35px] p-2 text-center" placeholder="1" readonly>
+                <button class=" h-[27px] w-[27px] text-[22px] font-bold" @click="addUnit">+</button>
               </div>
               <p class="text-[18px]">$Amount</p>
               <button class="w-[150px] h-[50px] border rounded-full tex">
                 Buy
               </button>
-              <button class="btn w-[70px] h-[150px] bg-red-300 rounded-lg">X</button>
+              <button class="btn w-[70px] h-[150px]  rounded-lg">X</button>
             </div>
 
           </div>
@@ -114,6 +123,7 @@ export default {
   },
   data() {
     return {
+      unit: 1,
     }
   },
 
@@ -124,6 +134,14 @@ export default {
    
   },
   methods: {
+
+    addUnit(){
+      this.unit++
+    },
+
+    reduceUnit(){
+      this.unit--
+    }
    
   },
 }

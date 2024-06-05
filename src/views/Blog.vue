@@ -40,7 +40,7 @@
                   <button class="btn w-[200px] rounded-full border  border-gray-500">Post</button>
                 </div>
               </div> 
-              <textarea name="" id="" class="resize-none w-[1200px] h-auto text-[20px] p-4 rounded-xl" placeholder="Type your blog post... "></textarea>
+              <textarea name="" id="" class="resize-none w-[1200px] h-auto text-[20px] p-4 rounded-xl focus:outline-none focus:ring-2 focus:ring-violet-300" placeholder="Type your blog post... "></textarea>
               <div class="w-[80px] h-[80px]  rounded-full border border-black"></div>
             </div>
             
